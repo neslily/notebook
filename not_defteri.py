@@ -25,8 +25,8 @@ def not_defteri():
         elif secim==3:
             print("notlarınız siliniyor")
             try:
-                with open("notlar.txt","w") as file:    # Dosyayı yazma modunda açıyoruz, içerik silinir
-                    pass  # İçeriği boş bırakıyoruz, dosya temizlenir
+                with open("notlar.txt","w") as file:                
+                    pass  
                 print("notlar silindi")
             except FileNotFoundError:
                 print("henüz not eklenmemiş")
